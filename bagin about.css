@@ -1,0 +1,28 @@
+body{
+	background-color:  #F3E2B3;
+}
+ h1 {
+ 	text-align: center;
+ }
+
+.box2{
+background:#C1AE78;
+border-radius: 5px;
+}
+
+.box3 {
+background: #C1AE78;
+border-radius: 5px;
+}
+
+.box4 {
+	background: #C1AE78;
+	border-radius: 5px;
+}
+
+footer {
+	padding: 30px;
+	background-color: #E7DCBB;
+	text-align: center;
+	font-family: times new romance;
+}

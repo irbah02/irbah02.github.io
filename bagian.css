@@ -1,0 +1,175 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+	background-color: #F3E2B3;
+}
+
+.medsos {
+   padding: 5px 0;
+   background-color: #E7DCBB; 
+}
+.medsos ul li {
+   display: inline-block;
+   color: white;
+   margin-right: 10px;
+}
+.container {
+   width: 80%;
+   margin: 0 auto;
+   font-family: cursive;
+}
+.container:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+header h1 {
+	color: brown;
+	font-family: monospace;
+	float: left;
+	padding: 15px 0;
+	font-size: 45px;
+	
+}
+header ul {
+	border: 1px solid;
+	float: right;
+	color: #E4CF79;
+	font-size: 18px;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+	color: black;
+}
+header ul li a:hover{
+	background-color: #ECD67C;
+	color: white;
+}
+.active{
+	background-color: #ECD67C;
+	color: white;
+}
+.banner{
+	height: 28vh;
+	width: 207vh;
+	border: 1px solid;
+	background-image: url(images/donat2.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(252, 218, 227, .4);
+}
+.banner h2{
+	color: #655537;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid white;
+	font-size: 30px;
+}
+
+
+.slider {
+  overflow: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  margin-top: 8%;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+	
+section{
+	padding: 50px 0;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+#contact {
+    background: #E7DCBB; 
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}

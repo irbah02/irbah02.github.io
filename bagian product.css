@@ -1,0 +1,105 @@
+body {
+    background-color: #F3E2B3;
+}
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.products .box-container .box{
+    flex:1 1 auto;
+    box-shadow: 0 0.5px 1.5px rgba(0,0,0,.1);
+    border-radius: 0.5px;
+    border:.1px solid rgba(0,0,0,.1);
+    position: relative;    
+}
+
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    overflow:hidden;
+}
+
+.products .box-container .box .image img{
+    width:360px;
+    transition: transform 1s;
+}
+
+.products .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons{
+    position: absolute;
+    bottom:-90px; left:0; right:0;
+    display: flex;
+    transition: 1s;
+}
+
+.products .box-container .box:hover .image .icons{
+    bottom:0;
+}
+
+.products .box-container .box .image .icons a{
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+    width:50%;
+    background: #E3DD7E;
+    color:#ffffff;
+}
+
+.products .box-container .box .image .icons .cart-btn{
+    width:70%;
+}
+
+.products .box-container .box .image .icons a:hover{
+    background: #FC99B2;
+}
+
+.products .box-container .box .content{
+    padding: 10px;
+    text-align: center;
+}
+
+.products .box-container .box .content h3{
+    font-size: 25px;
+    color:#000000;
+}
+
+.products .box-container .box .content .price{
+    font-size: 20px;
+    color:#3f72af;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
